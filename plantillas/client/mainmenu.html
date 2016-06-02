@@ -1,0 +1,10 @@
+<template name="mainmenu">
+	<ul class="nav navbar-nav">
+		{{#each menu}}
+			{{>item}}
+		{{/each}}
+	</ul>			
+</template>
+<template name="item">
+	<li class="active"><a href="/">{{name}}</a></li>
+</template>
